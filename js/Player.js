@@ -21,4 +21,11 @@ class Player {
     }
     return tokens;
   }
+  checkTokens() {
+    if (this.unusedTokens.length == 0) {
+      return false;
+    } else {
+      return true;
+    }
+  }
 }
